@@ -14,7 +14,7 @@ This project is part of the CODSOFT Artificial Intelligence Internship. In this 
 - If-Else rules
 
 ## Project Structure
-ask1_chatbot/                                                                                                                           
+Task1_chatbot/                                                                                                                           
 │── chatbot.py # Main chatbot script                                                                                                                            
 │── README.md # Documentation (this file)                                                                                                                        
 │── requirements.txt # Dependencies (if any)
@@ -41,5 +41,6 @@ Bot: Goodbye! Have a great day 😊
 -Implement pattern-based matching using regex                                                                             
 -Integrate with speech-to-text for voice-based chatting                                                                                  
 -Move towards ML-based chatbot using NLP libraries or transformer models
+
 
 
