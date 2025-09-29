@@ -46,7 +46,3 @@ build/
 *.npz
 *.npy
 *.pkl
-
-# Task-specific video demos
-*.mp4
-*.mov
