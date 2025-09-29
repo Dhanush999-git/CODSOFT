@@ -37,7 +37,8 @@ User: Bye
 Bot: Goodbye! Have a great day 😊
 
 ## Future Improvements
--Add more predefined responses
--Implement pattern-based matching using regex
--Integrate with speech-to-text for voice-based chatting
+-Add more predefined responses                                                                                                       
+-Implement pattern-based matching using regex                                                                             
+-Integrate with speech-to-text for voice-based chatting                                                                                  
 -Move towards ML-based chatbot using NLP libraries or transformer models
+
