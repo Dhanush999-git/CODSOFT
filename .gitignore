@@ -1,34 +1,52 @@
-
----
-
-## 📄 .gitignore
-
-```gitignore
 # Python cache files
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Virtual environment
+# Virtual environments
 env/
 venv/
 ENV/
 .venv/
 
 # Jupyter Notebook checkpoints
-.ipynb_checkpoints
+.ipynb_checkpoints/
 
-# IDE settings
-.vscode/
+# PyCharm project files
 .idea/
 
-# OS files
+# VSCode project files
+.vscode/
+
+# macOS system files
 .DS_Store
+
+# Windows system files
 Thumbs.db
+Desktop.ini
 
-# Logs
+# Python packaging
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Logs and temporary files
 *.log
+*.tmp
+*.bak
 
-# Environment variables
-.env
+# Dataset or large files (optional)
+*.csv
+*.h5
+*.sqlite3
+*.db
+*.npz
+*.npy
+*.pkl
+
+# Task-specific video demos
+*.mp4
+*.mov
