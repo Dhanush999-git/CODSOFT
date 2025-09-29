@@ -1,0 +1,7 @@
+# Basic dependencies for Task 1 - Rule-Based Chatbot
+
+# Optional for regex (already included in Python standard library, no install needed)
+re  
+
+# Optional for enhanced text processing
+nltk
