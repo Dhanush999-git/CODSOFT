@@ -13,9 +13,9 @@ I am implementing all 5 tasks for extra learning and practice:
 
 Each task has its own folder with:
 - Code (`.py` or `.ipynb`)
+- readme.md
 - requirements.txt
-- Demo instructions
-- Video demo link
 
 ---
 Stay tuned for updates 🚀
+
