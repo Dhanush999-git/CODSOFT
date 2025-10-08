@@ -1,48 +1,103 @@
-# Python cache files
+# ===========================================
+# Python
+# ===========================================
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
+*.so
 *.pyd
+*.pyo
+*.pdb
+*.log
 
 # Virtual environments
-env/
 venv/
-ENV/
+env/
 .venv/
+ENV/
+env.bak/
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
+# ===========================================
+# Jupyter Notebook
+# ===========================================
+.ipynb_checkpoints
+*.nbconvert.ipynb
 
-# PyCharm project files
+# ===========================================
+# Data & Model Files
+# ===========================================
+# Large datasets or model weights should not be committed
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.ckpt
+*.joblib
+*.npy
+*.npz
+*.csv
+*.tsv
+*.xlsx
+*.xls
+data/
+datasets/
+models/
+checkpoints/
+outputs/
+runs/
+results/
+
+# ===========================================
+# System & IDE files
+# ===========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VSCode
+.vscode/
+.code-workspace
+
+# PyCharm / JetBrains
 .idea/
 
-# VSCode project files
-.vscode/
+# ===========================================
+# Environment & Credentials
+# ===========================================
+*.env
+.env.*
+*.ini
+*.cfg
+*.json
+secrets/
+config/
+credentials.txt
 
-# macOS system files
-.DS_Store
-
-# Windows system files
-Thumbs.db
-Desktop.ini
-
-# Python packaging
-*.egg
-*.egg-info/
+# ===========================================
+# Node / Web frontend (if you add a web UI)
+# ===========================================
+node_modules/
 dist/
 build/
-.eggs/
+*.lock
+package-lock.json
 
-# Logs and temporary files
-*.log
-*.tmp
+# ===========================================
+# Misc
+# ===========================================
+*.zip
+*.rar
+*.tar
+*.gz
+*.7z
 *.bak
+*.tmp
+*.swp
 
-# Dataset or large files (optional)
-*.csv
-*.h5
-*.sqlite3
-*.db
-*.npz
-*.npy
-*.pkl
+# ===========================================
+# Output folders for task results or screenshots
+# ===========================================
+screenshots/
+videos/
+demo/
