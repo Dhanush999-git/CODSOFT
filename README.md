@@ -18,4 +18,3 @@ Each task has its own folder with:
 
 ---
 Stay tuned for updates 🚀
-
