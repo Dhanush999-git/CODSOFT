@@ -3,13 +3,9 @@
 
 This repository contains my completed tasks for the CODSOFT Internship.  
 
-I am implementing all 5 tasks for extra learning and practice:
-
 - Task 1: Rule-based Chatbot 🤖  
 - Task 2: Tic-Tac-Toe AI 🎮  
-- Task 3: Image Captioning 🖼️📝  
-- Task 4: Recommendation System 🎯  
-- Task 5: Face Detection & Recognition 🧑‍🤝‍🧑  
+- Task 3: Recommendation System 🎯  
 
 Each task has its own folder with:
 - Code (`.py` or `.ipynb`)
@@ -17,4 +13,5 @@ Each task has its own folder with:
 - requirements.txt
 
 ---
-Stay tuned for updates 🚀
+
+Stay tuned for updates 🚀 make like 
