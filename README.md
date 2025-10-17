@@ -14,4 +14,5 @@ Each task has its own folder with:
 
 ---
 
-Stay tuned for updates 🚀 make like 
+Stay tuned for more updates 🚀
+
