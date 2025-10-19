@@ -25,7 +25,6 @@ Task2_tictactoe/
 1. Clone this repository or download the folder.  
 2. Open a terminal and navigate to Task2_tictactoe/.  
 3. Run the game:  
-   ```bash
    python tictactoe_ai.py
 
 ## Example Interaction
