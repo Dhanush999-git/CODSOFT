@@ -1,7 +1,23 @@
+# Core Libraries
+numpy
+pandas
+matplotlib
+Pillow
+tqdm
+
+# Deep Learning Framework
 torch
 torchvision
-matplotlib
-pillow
-numpy
+torchaudio
+
+# NLP Tools
 nltk
-tqdm
+
+# Utilities
+scikit-learn
+opencv-python
+pyyaml
+
+# Optional (for visualization or testing)
+jupyter
+notebook

@@ -1,19 +1,109 @@
-# CODSOFT - Image Captioning (Task 3)
+🖼️ Task 3: Image Captioning
+Project Overview
 
-This repository contains a simple image captioning implementation using a pretrained ResNet encoder and an LSTM decoder.
+This project is part of the CODSOFT Artificial Intelligence Internship.
+In this task, I built an Image Captioning Model that combines Computer Vision and Natural Language Processing (NLP) to automatically generate meaningful captions for images.
 
-## Summary
-- Task: Image Captioning (Task 3 from CODSOFT internship tasks). See uploaded instructions for task descriptions.
-- Approach: Pretrained ResNet-50 extracts image features; an LSTM decoder generates captions token-by-token.
-- Purpose: Educational/demo implementation suitable for a short internship project and video demo.
+The model first extracts visual features from images using a pre-trained CNN model (like VGG16 or ResNet), and then uses a Recurrent Neural Network (RNN) or Transformer-based model to generate descriptive captions. This project demonstrates the integration of deep learning models from two major AI domains — vision and language.
 
-## Project structure
-(see project structure above)
+Features
 
-## Quick start
+Extracts image features using a pre-trained CNN (VGG16 / ResNet)
 
-1. Prepare data:
-   - Provide a CSV `captions.csv` with two columns: `image_file`, `caption`.
-   - Place images under `data/images/` and set `--root data/images` when training.
+Generates captions using RNN or LSTM models
 
-   Example CSV:
+Supports training on custom datasets
+
+Can generate captions for new, unseen images
+
+Produces human-like captions using learned language patterns
+
+Technologies Used
+
+Python 3
+
+TensorFlow / PyTorch
+
+NumPy, Pandas
+
+NLTK (for text preprocessing)
+
+Matplotlib (for visualization)
+
+Pre-trained CNN (VGG16 / ResNet)
+
+Project Structure
+Task3_ImageCaptioning/
+│── data/
+│   ├── images/              # Folder containing training images
+│   ├── captions.csv         # Image names and captions
+│   └── vocab.pkl            # Serialized vocabulary file
+│
+│── models/
+│   ├── checkpoint_epoch5.pth.tar  # Saved model checkpoint
+│
+│── results/
+│   └── generated_captions.txt     # Output captions
+│
+│── src/
+│   ├── build_vocab.py       # Builds vocabulary from captions
+│   ├── train.py             # Training script
+│   ├── model.py             # CNN + RNN model definition
+│   ├── batch_inference.py   # Generate captions in batches
+│   └── utils.py             # Helper functions
+│
+│── requirements.txt         # Dependencies
+│── README.md                # Documentation (this file)
+
+How to Run
+
+Clone this repository or download the folder.
+
+Navigate to the project directory:
+
+cd Task3_ImageCaptioning
+
+
+Prepare your dataset:
+
+Place images in the data/images/ folder
+
+Create a data/captions.csv file with columns:
+
+image_name,caption
+dog.jpg,A dog playing in the park
+cat.jpg,A cat sitting on the sofa
+
+
+Build the vocabulary:
+
+python src/build_vocab.py --caption_file data/captions.csv --vocab_file data/vocab.pkl --threshold 1
+
+
+Train the model:
+
+python src/train.py
+
+
+Generate captions for new images:
+
+python src/batch_inference.py --checkpoint models/checkpoint_epoch5.pth.tar --vocab_file data/vocab.pkl --img_dir data/images --output_dir results
+
+Example Output
+
+Input Image:
+(An image of a dog playing on grass)
+
+Generated Caption:
+
+"A brown dog playing in the field."
+
+Future Improvements
+
+Experiment with Transformer-based captioning models (e.g., ViT + GPT)
+
+Add beam search for better caption generation
+
+Use attention mechanisms for image–word alignment
+
+Integrate with Flask or Streamlit for a web-based demo
