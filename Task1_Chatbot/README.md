@@ -23,7 +23,6 @@ Task1_chatbot/
 1. Clone this repository or download the folder.  
 2. Open a terminal and navigate to task1_chatbot/.  
 3. Run the chatbot:  
-   ```bash
    python chatbot.py
    
 ## Example Interaction
@@ -41,6 +40,7 @@ Bot: Goodbye! Have a great day 😊
 -Implement pattern-based matching using regex                                                                             
 -Integrate with speech-to-text for voice-based chatting                                                                                  
 -Move towards ML-based chatbot using NLP libraries or transformer models
+
 
 
 
