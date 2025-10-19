@@ -8,11 +8,12 @@ This repository contains my completed tasks for the CODSOFT Internship.
 - Task 3: Recommendation System 🎯  
 
 Each task has its own folder with:
-- Code (`.py` or `.ipynb`)
+- Code files
 - readme.md
 - requirements.txt
 
 ---
 
 Stay tuned for more updates 🚀
+
 
