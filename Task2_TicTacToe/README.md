@@ -8,12 +8,12 @@ This project is part of the CODSOFT Artificial Intelligence Internship. In this 
 - AI uses **Minimax algorithm with Alpha-Beta pruning** for optimal moves  
 - User can choose to play first (X) or second (O)  
 - Shows numbered board positions for easy input  
-- Handles quitting gracefully (`q`, `quit`, `exit`)  
+- Handles quitting gracefully (q, quit, exit)  
 - Draw detection when the board is full  
 
 ## Technologies Used
 - Python 3  
-- Standard libraries: `random`, `math`, `sys`  
+- Standard libraries: random, math, sys
 
 ## Project Structure
 Task2_tictactoe/                                                                                                                           
